@@ -4,6 +4,11 @@ display:block;
 margin: 0 auto;
 
 }
+
+body{
+  font-family: 'Exo', sans-serif;
+}
+
 h1 {
   color: red
 }
@@ -11,4 +16,8 @@ h1 {
 li{
   display: inline;
   padding :10 px;
+}
+nav-item{
+  display: inline;
+  padding: 10px;
 }
