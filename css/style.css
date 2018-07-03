@@ -21,3 +21,7 @@ nav-item{
   display: inline;
   padding: 10px;
 }
+.nav-link{
+text-decoration :none;
+color :green;
+}
