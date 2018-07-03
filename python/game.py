@@ -9,13 +9,13 @@ class MIT(object):
         self.health= 10
         self.damage= random.randint(1,5)
 
-def isAlive(self):
-    return self.health > 0
+    def isAlive(self):
+        return self.health > 0
 
-def attack(self):
-    hitDamage = random.randint(0,10)
-    self.health -= hitDamage
-    return hitDamage
+    def attack(self):
+        hitDamage = random.randint(0,10)
+        self.health -= hitDamage
+        return hitDamage
 
 mits = [
  MIT  ("bennett"),
@@ -31,6 +31,7 @@ while len(mits) > 0:
     mit = mits.pop()
     print("wild {} appears".format(mit.name))
     while mit.isAlive():
+        print("you have {} health".format(health))
         print("do you want to fight or flee?")
         if input("fight / flee > ").lower() == "fight":
                 damage = mit.attack()
