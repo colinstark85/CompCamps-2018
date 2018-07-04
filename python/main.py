@@ -10,4 +10,4 @@ def welcome(name):
 
         mits = ["bennett","kaitlin","rhiamon","austin","travis"]
         for mit in mit:
-            welcome mit
+            welcome mit:
