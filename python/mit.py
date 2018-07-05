@@ -6,3 +6,4 @@ class MIT:
         self.image = "images/" + self.name.lower()
         self.img = pygame.image.load(self.image)
 self.img= pygame.transfers scale(self.img.)(100)(100)
+self.health =20
