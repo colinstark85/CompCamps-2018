@@ -29,13 +29,13 @@ random.shuffle(mits)
 score = 0
 while len(mits) > 0:
     mit = mits.pop()
-    print("wild {} appears".format(mit.name))
+    print("wild {brett} appears".format(mit.name))
     while mit.isAlive():
-        print("you have {} health".format(health))
+        print("you have {50} health".format(health))
         print("do you want to fight or flee?")
         if input("fight / flee > ").lower() == "fight":
                 damage = mit.attack()
-                print("you did {} damage".format(damage))
+                print("you did {10} damage".format(damage))
         else:
             caught = random.randint(1,5) == 1
             if not caught:
